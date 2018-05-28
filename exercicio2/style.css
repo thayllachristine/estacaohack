@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: black;    
+    height: 50px;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+
+ }
+
+li{
+    color: white;
+}
+
+.logo{
+    margin-right: 50%;
+}
+
+.home-menu{
+    width: 90%;
+}
+
+.home-menu li{
+    float: left;
+    margin-right: 10%;
+}
+
+.home-banner{
+    width: 100%;
+}
+
+.titulo-secao{
+    text-align: center;
+}
+
+.text-sobre{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container{
+    display: flex;
+    margin-left: 5%;
+}
+
+.card{
+    width: 30%;
+    height: 200px;
+    background: gray;
+    margin-right: 5%
+    
+}
