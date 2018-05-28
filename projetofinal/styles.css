@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+li{
+    color: blue;
+    
+}
+
+.logo{
+    width: 40%;
+    color: blue;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.logo-logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 180%
+    
+}
+
+.links{
+    display: flex;
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links li{
+    margin-right: 5%;
+    margin-top: 10% 
+}
+
+.home img{
+    width: 100%
+}
+
+.titulo-sessao{
+    text-align: center;
+}
+
+.texto-sessao{
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: center;
+
+}
+
+.coutanier{
+    display: flex;
+    margin-left: 5%;
+}
+.card{
+    width: 30%;
+    height: 300px;
+    margin-right: 5%;
+}
+
+
+
+.container{
+    display: flex;
+    margin-left: 5%;
+}
+
+.card{
+text-align: center;
+    
+width: 30%;
+
+height: 150px;
+
+margin-right: 5%
+}
+
+.contato{
+    
+margin-top: 15%;
+    
+text-align: center;
+    
+}
+    
+    
