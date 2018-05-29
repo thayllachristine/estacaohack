@@ -1,0 +1,128 @@
+codeshare.io/fimdsemana
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="logo">
+                    <li>Portfólio</li>
+                </div>
+
+                <div class="links">
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Projetos</li>
+                    <li>Contato</li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <img src="imagens/imagem-home.jpg">
+    </section>
+
+    <section class="sobre">
+        <h2 class="titulo-secao">Sobre</h2>
+        <div class="texto-sobre">
+            <p>Lorem ipsum Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
+
+                O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.dolor sit amet consectetur adipisicing elit. Soluta dicta accusamus delectus reiciendis, quae consequatur rem neque, tempore, consectetur assumenda vel ipsum quibusdam vero corporis! Reprehenderit perferendis ratione reiciendis distinctio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit aperiam quasi corporis eligendi obcaecati unde dignissimos tempore porro quis veritatis velit pariatur alias, laborum architecto. Nostrum expedita consequatur deserunt impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aperiam repellat quaerat earum tempora vitae, fugit beatae recusandae. Illo ad excepturi assumenda dolorum sint vel numquam nulla est officia veritatis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, eum rerum culpa perspiciatis soluta, optio voluptatem sed error dignissimos illum eos. Commodi sint, iure deserunt cupiditate unde veniam quisquam ut.</p>
+        </div>
+    </section>
+
+    <section class="projetos">
+        <h2 class="titulo-secao">Projetos</h2>
+        <div class="container">
+            <div class="card">
+                <img src="imagens/imagem-home.jpg">
+                <h3>Titulo do Card</h3>
+                <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ab! Facilis impedit saepe id aut repellendus, voluptas, facere porro possimus doloribus, quibusdam quos exercitationem obcaecati pariatur debitis vero atque iusto? consectetur adipisicing elit. Voluptatum, mollitia. Sapiente voluptas minima velit in ad quae, incidunt accusamus reprehenderit aspernatur laboriosam, iusto eaque perspiciatis repudiandae! Iste excepturi suscipit neque.</p>
+            </div>
+    
+            <div class="card">
+                <img src="imagens/imagem-home.jpg">
+                <p>Lorem ipsum d Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, vero debitis! Blanditiis delectus quis eum asperiores architecto autem voluptatibus maiores dicta, aut, atque pariatur eos modi, exercitationem ipsa saepe aperiam? olor sit amet, consectetur adipisicing elit. Voluptatum, mollitia. Sapiente voluptas minima velit in ad quae, incidunt accusamus reprehenderit aspernatur laboriosam, iusto eaque perspiciatis repudiandae! Iste excepturi suscipit neque.</p>
+            </div>
+    
+            <div class="card">
+                <img src="imagens/imagem-home.jpg">
+                <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quam molestiae. Eveniet ducimus beatae eum, nisi magni at atque optio voluptate! Unde pariatur dolores voluptatibus odio laboriosam minima vero dicta! sit amet, consectetur adipisicing elit. Voluptatum, mollitia. Sapiente voluptas minima velit in ad quae, incidunt accusamus reprehenderit aspernatur laboriosam, iusto eaque perspiciatis repudiandae! Iste excepturi suscipit neque.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+----------------------------------------
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    height: 65px;
+}
+
+ul{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    padding-top: 25px;
+}
+
+li{
+    color: white;
+}
+
+.logo{
+    margin-right: 60%;
+}
+
+.links{
+    width: 100%;
+}
+
+.links li{
+    float: left;
+    margin-right: 10%;
+}
+
+.home img{
+    width: 100%;
+}
+
+.titulo-secao{
+    text-align: center;
+}
+
+.texto-sobre{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card{
+    height: 500px;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    margin-left: 5%;
+}
