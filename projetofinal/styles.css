@@ -18,7 +18,6 @@ ul{
 
 li{
     color: blue;
-    
 }
 
 .logo{
@@ -30,8 +29,7 @@ li{
 
 .logo-logo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 180%
-    
+    font-size: 180%  
 }
 
 .links{
@@ -57,20 +55,18 @@ li{
     margin-left: 10%;
     margin-right: 5%;
     text-align: center;
-
 }
 
 .coutanier{
     display: flex;
     margin-left: 5%;
 }
+
 .card{
     width: 30%;
     height: 300px;
     margin-right: 5%;
 }
-
-
 
 .container{
     display: flex;
@@ -78,21 +74,13 @@ li{
 }
 
 .card{
-text-align: center;
-    
-width: 30%;
-
-height: 150px;
-
-margin-right: 5%
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    margin-right: 5%
 }
 
 .contato{
-    
-margin-top: 15%;
-    
-text-align: center;
-    
+    margin-top: 15%;
+    text-align: center;
 }
-    
-    
